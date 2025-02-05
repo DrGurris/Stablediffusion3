@@ -1,9 +1,9 @@
 import requests
 
 response = requests.post(
-    f"https://api.stability.ai/v2beta/stable-image/generate/ultra",
+    f"apikey",
     headers={
-        "authorization": f"sk-Y43ET7EYoZ8AaUxClBgPCuNKX3GyoEa6xBqfLOe7dbzI5etK",
+        "authorization": apadas",
         "accept": "image/*"
     },
     files={"none": ''},
